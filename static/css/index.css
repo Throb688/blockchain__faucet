@@ -1,0 +1,22 @@
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.progress {
+    position: relative;
+}
+.progress span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: white;
+}
+pre {
+    padding: 6px;
+    margin: 0;
+}
+body{
+    background-image: url("../images/index.jpg");
+}
